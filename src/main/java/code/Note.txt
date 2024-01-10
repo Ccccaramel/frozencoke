@@ -1,0 +1,18 @@
+从桌面右键鼠标点击“Git Bash Here",打开MINGW64窗口。
+输入cd D:
+- 表示将新建文档保存于D盘。
+输入git clone 网址
+- 用于连接对应github.com的文档保存位置。
+输入git config --global user.email "email address"
+输入git config --global user.name "user name"
+- 需要进行用户登录授权从github.com文档提取文件。
+输入git add .
+- 准备提交修改好的版本。
+输入git commit -m "本次修改的注释"
+- 对本次改动/更新的版本进行注解，并保存于虚拟仓库中，方便日后查阅。保存提交完成。
+输入git push origin
+- 导出修改好的版本；
+- 需时等待链接github.com以更新导出数据。注：如连接失败可再次输入该指令尝试重新连接。
+- 以上指令成功运行即可导出更新版本的文档，并用于编辑修改。
+输入git pull
+- 可刷新并得到该文档的最新编辑内容，可用于多人同时编辑。
